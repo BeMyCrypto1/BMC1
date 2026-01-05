@@ -94,8 +94,18 @@ All BMC1 ecosystem tokens are **utility tokens**. They do not represent equity, 
 - Network: Polygon and compatible EVM chains
 
 - Legacy Deployment Status
+#DEPRECATION OF OLD TOKENS
+from EARLIER contracts
 
-An earlier BMC1 contract deployment (0x0f6e594f79f8a8a20a29d119A39C42E06E5093c1) has been identified as containing architectural weaknesses that do not align with current ecosystem standards. While the contract remains on-chain, it is considered inactive and deprecated.
+OLD contract's deprecations are:
+
+bmc1 0x0f6e594f79f8a8a20a29d119a39c42e06e5093c1,
+bmc1x  0xae9c72ef6fc717687398c334ebb8fcf77d70ff35,
+bmc1g 0xa70b470307a26cd3c7255097fa3a56f51d216eca
+
+ They had been identified as containing architectural weaknesses that do not align with current ecosystem standards. 
+ While the contracts remains on-chain, they graduately will be considered inactive removing funds back to users
+ and all deprecated. 
 
 To prevent unintended usage, remaining token supply associated with this deployment is planned to be permanently removed from circulation through transfer to a dead address, effectively rendering the contract economically inactive.
 
